@@ -1,0 +1,12 @@
+{
+    "name": "dev/developer",
+    "authors": [
+        {
+            "name": "Luis Solorzano",
+            "email": "luisnic20@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/homestead": "^6.1"
+    }
+}

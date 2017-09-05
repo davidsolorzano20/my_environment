@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/developer/web/":{"type":null,"mount_options":["uid=1000","gid=1000"],"guestpath":"/home/vagrant/developer/web","hostpath":"/home/dev/developer","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/dev/developer","disabled":false,"__vagrantfile":true}}}
