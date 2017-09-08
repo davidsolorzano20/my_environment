@@ -1,19 +1,19 @@
-ip: 192.168.10.10
+ip: 192.168.10.2
 memory: 2048
 cpus: 1
 provider: virtualbox
-authorize: ~/.ssh/id_rsa.pub
+authorize: ~/.ssh/ubuntu.pub
 keys:
-    - ~/.ssh/id_rsa
+    - ~/.ssh/ubuntu
 folders:
     -
-        map: /home/dev/developer
-        to: /home/vagrant/developer/web/
+        map: /home/dev/developer/web
+        to: /home/ubuntu/Code
 sites:
     -
         map: develop.app
-        to: /home/vagrant/developer/
+        to: /home/ubuntu/Code/web
 databases:
     - homestead
-name: developer
+name: environment
 hostname: developer
